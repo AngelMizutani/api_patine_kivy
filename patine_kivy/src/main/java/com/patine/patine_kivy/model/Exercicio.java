@@ -1,4 +1,4 @@
-package com.patine.patine_kivy.entidades;
+package com.patine.patine_kivy.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

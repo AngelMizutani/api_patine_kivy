@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PatineKivyApplication<patine_kivy>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.patine.patine_kivy.PatineKivyApplication",
+            "projectName": "patine_kivy",
+            "args": ""
+        }
+    ]
+}

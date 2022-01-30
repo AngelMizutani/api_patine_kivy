@@ -2,10 +2,9 @@ package com.patine.patine_kivy.controle;
 
 import java.util.List;
 
-import com.patine.patine_kivy.entidades.Exercicio;
+import com.patine.patine_kivy.model.Exercicio;
 import com.patine.patine_kivy.repositorio.RepositorioExercicio;
 
-import org.apache.el.stream.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,7 +41,7 @@ public class ExercicioControle {
 
     @DeleteMapping("/{id}")
     public void excluir(@PathVariable Long id){
-        repositorio.deleteById(id);;
+        repositorio.deleteById(id);
     }
 
 
